@@ -5,8 +5,9 @@ de Food Delivery que busca expandirse en Estados Unidos. Antes de lanzar la apli
 decidir en qué ciudades invertir, el directorio necesita entender cómo operan sus competidores
 actuales, qué categorías dominan el mercado y cómo se comportan los precios según la región.
 
-##1. Preparación del entorno de Databricks
-###1.1. Arquitectura de trabajo
+#1. Preparación del entorno de Databricks
+
+#1.1. Arquitectura de trabajo
 
 
 <div align="center">
