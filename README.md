@@ -5,9 +5,12 @@ de Food Delivery que busca expandirse en Estados Unidos. Antes de lanzar la apli
 decidir en qué ciudades invertir, el directorio necesita entender cómo operan sus competidores
 actuales, qué categorías dominan el mercado y cómo se comportan los precios según la región.
 
-#1. Preparación del entorno de Databricks
+##1. Preparación del entorno de Databricks
 
-#1.1. Arquitectura de trabajo
+###1.1. Arquitectura de trabajo
+
+
+
 
 
 <div align="center">
@@ -35,6 +38,26 @@ actuales, qué categorías dominan el mercado y cómo se comportan los precios s
 | 4 consultas SQL, DataFrames de resultados, gráficos y recomendaciones |
 
 </div>
+
+
+###1.2. Bibliotecas
+
+``` python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+from pyspark.sql import functions as F
+from pyspark.sql import types as T
+from pyspark.sql.window import Window
+
+```
+
+
+
+
+
 
 
 
